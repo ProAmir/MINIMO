@@ -1,0 +1,227 @@
+/* part css start*/
+*{ margin: 0;
+    padding: 0;
+} 
+header{padding: 50px;width: 90%;margin: auto;}
+.logo{float: left;width: 20%;}
+.logo img{
+    padding-top: 20px;
+    overflow: hidden;
+}
+.nav{
+
+width: 50%;
+
+float: right;
+}
+.nav ul{
+
+list-style: none;
+
+float: right;
+
+padding: 0px;
+}
+.nav ul li {float: left;margin-left: 90px;}
+.nav ul li a{
+    
+text-decoration: none;
+    
+color: #585858;
+    
+text-transform: uppercase;
+}
+.nav ul li a hover{
+
+}
+/* header part css end*/ 
+
+/*banner part css stsrt*/
+.banner{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px
+
+}
+.banner img{
+    width:100%
+}
+/*banner part css end*/
+/*photodiary part css start*/
+.photodiary{width: 85%;margin: auto;margin-top: 90px;}
+.photodiary span{
+
+color: #a69a9a;
+}
+.photodiary h1{
+
+font-size: 35px;
+
+color: #6a6767;
+}
+.photodiary p{
+    color: #5c5656;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 60px;
+}
+.photodiary a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #877979;
+    padding-top: 29px;
+}
+
+/*photodiary part css end*/
+/*lifestyle part css start*/
+.lifestyle{
+
+width: 85%;
+
+margin: auto;
+
+margin-top: 90px;
+
+display: flex;
+
+justify-content: space-between;
+}
+.single_lifestyle{width: 45%;
+
+}
+.single_lifestyle span{
+    text-transform: uppercase;
+    color: #a69a9a;
+    /* margin-bottom: 13px; */
+    }
+.single_lifestyle img{
+
+width: 100%;
+
+margin-bottom: 35px;
+}
+.single_lifestyle h1{
+
+font-size: 35px;
+
+color: #6a6767;
+
+margin-top: 35px;
+}
+.single_lifestyle p{
+
+color: #5c5656;
+
+font-size: 18px;
+
+line-height: 24px;
+
+margin-bottom: 60px;
+}
+/*lifestyle part css end*/
+
+/*newslatter part css start*/
+.newslatter{
+    background-color: #9f96961f;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.newslatter_contant{
+
+}
+.newslatter_contant h1{
+
+font-size: 35px;
+
+color: #6a6767;
+
+font-weight: 400;
+}
+.newslatter_contant input{ background-color: #9f96961f;
+    border: none;
+    border-bottom: 1px solid;
+    width: 100%;
+ }
+ .newslatter_contant img{
+
+position: absolute;
+
+top: 55%;
+
+right: 38%;
+}
+
+/*newslatter part css end*/
+/*button part css start*/
+.button{
+
+height: 250px;
+
+display: flex;
+
+justify-content: space-evenly;
+
+align-items: center;
+}
+
+.btn input{
+
+background-color: white;
+
+border: 1px solid;
+
+padding: 30px;
+
+font-size: 18px;
+}
+/*button part css end*/
+/*footer part css start*/
+footer{
+    background-color: #f4ededab;
+    min-height: 150px;
+}
+ .footer_contant{
+
+width: 85%;
+
+display: flex;
+
+justify-content: space-between;
+
+margin: auto;
+
+height: 150px;
+
+align-items: center;
+
+}
+.trams{}
+.trams ul {
+    list-style: none;
+}
+.trams ul li{float: left;margin: 35px;}
+.trams ul li a{
+    color: #878686de;
+    text-decoration: none;
+    font-size: 17px;
+}
+.social_share{}
+.social_share ul{
+    list-style: none;
+}
+.social_share ul li{
+    float: left;
+    margin: 35px;
+}
+.social_share ul li a{
+    color:#878686de;
+    text-decoration: none;
+    font-size: 17px;
+}
+.social_share ul li a i{}
+
+/*footer part css end*/
